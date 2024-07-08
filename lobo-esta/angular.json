@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "lobo-esta": {
+    "Lobo-Esta": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -41,7 +41,12 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "server": "src/main.server.ts",
+            "prerender": true,
+            "ssr": {
+              "entry": "server.ts"
+            }
           },
           "configurations": {
             "production": {
@@ -71,10 +76,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "lobo-esta:build:production"
+              "buildTarget": "Lobo-Esta:build:production"
             },
             "development": {
-              "buildTarget": "lobo-esta:build:development"
+              "buildTarget": "Lobo-Esta:build:development"
             }
           },
           "defaultConfiguration": "development"

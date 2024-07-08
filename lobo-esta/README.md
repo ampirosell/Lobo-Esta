@@ -1,3 +1,6 @@
+# Lobo-Esta
+Radio Lobo Está, sobre Gimnasia y Esgrima de La Plata, transmitida desde Necochea 
+
 # LoboEsta
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
